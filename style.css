@@ -1,13 +1,15 @@
-*{
+* {
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     align-items: center;
     background-color: hsl(211, 68%, 94%);
     font-family: "Plus Jakarta Sans", sans-serif;
 }
-.container{
+
+.container {
     width: 50%;
     font-size: 16px;
     display: flex;
@@ -17,53 +19,71 @@ body{
     background-color: white;
     margin: 0 auto;
 }
-.MW , .AG , .JT{ 
-    border:1px solid  hsl(210, 60%, 98%);
-    margin: 2%;
+
+.MW,
+.AG,
+.JT {
+    border: 1px solid hsl(210, 60%, 98%);
+    margin: 1%;
     position: relative;
     border-radius: 10px;
-    padding-left: 15px; 
+    padding-left: 15px;
     background-color: hsl(210, 60%, 98%);
     display: flex;
     align-items: center;
 
 }
-.MW span{
+
+.MW span {
     font-weight: 700;
 }
-img{
+
+img {
     width: 7%;
     margin: 2%;
 }
-.KS,.NP,.AK{
-    margin: 2%;
+
+.KS,
+.NP,
+.AK {
+    margin: 1%;
     padding: 15px;
     display: flex;
     align-items: center;
 }
-.RH{
+
+.RH {
     margin: 2%;
     padding: 8px;
     /* display: flex; */
-    
+
 }
-.RH div{
+
+.RH div {
     display: flex;
     align-items: center;
 }
-.AG span,.RH span,.AK span,.NP span,.KS span{
+
+.AG span,
+.RH span,
+.AK span,
+.NP span,
+.KS span {
     font-weight: 700;
 }
-.ann{
+
+.ann {
     border: 1px solid black;
     padding: 22px;
     width: 90%;
     margin-left: 6%;
 }
-.container .not .NP p .dev{
+
+.container .not .NP p .dev {
     color: hsl(219, 12%, 42%);
 }
-.container .wel h4 span{
+
+.container .wel h4 span {
     color: white;
     background-color: hsl(219, 85%, 26%);
     padding: 4px 14px;
@@ -71,20 +91,16 @@ img{
     border-radius: 7px;
     border: 1px solid hsl(219, 85%, 26%);
 }
-.container .wel h4 span{
-    width: 90% ;
-}
-.container .wel{
-    display: flex;
- justify-content: space-between;
- width: 100%;
- padding: 15px;
+
+.container .wel h4 span {
+    width: 90%;
 }
 span.circle{
     border:1px solid red;
     background-color: red;
     border-radius: 100%;
     width: 2%;
+    right: 3.5%;
     bottom: 56%;
     position: absolute;
     display: block;
@@ -113,17 +129,55 @@ span.circle{
     width: 10px;
     height: 10px;
     }
+.container .wel p{
+    cursor: pointer;
+}
+.container .wel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+}
+
 /* MOBILE */
-@media screen and (max-width:640px){
-    .container{
+@media screen and (max-width:640px) {
+    .container {
         width: 100%;
         margin: 0;
     }
 
-    img{
+    img {
         width: 50px;
     }
-    .MW{
 
+    span.circle{
+        width: 2%;
+        bottom: 56%;
+        position: absolute;
+        display: block;
+        width: 10px;
+        height: 10px;
     }
+        span.cool{
+        border:1px solid red;
+        background-color: red;
+        border-radius: 100%;
+        left: 75%;
+        bottom: 55.5%;
+        position: absolute;
+        display: block;
+        width: 10px;
+        height: 10px;
+        }
+        span.cir{
+        border:1px solid red;
+        background-color: red;
+        border-radius: 100%;
+        left: 45%;
+        bottom: 55.5%;
+        position: absolute;
+        display: block;
+        width: 10px;
+        height: 10px;
+        }
 }
