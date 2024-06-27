@@ -5,9 +5,12 @@ read.addEventListener("click", ()=> {
     console.log(unreadenotifications)
     unreadenotifications.forEach((notification) => {
         console.log(notification)
-        notification.style.display = "none"
+        notification.style.backgroundColor= "white"
     })
-    // le.backgroundColor= "blue"
+     let backgroundColor= "blue"
     // Do it here
     // the_variable_name.style.display = "none"
 })
+let red = document.querySelector(".MW blue .circle")
+let rede = document.querySelector(".AG blue .cir")
+let reda = document.querySelector(".JT blue .cool")

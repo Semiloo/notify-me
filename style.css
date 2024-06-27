@@ -23,7 +23,6 @@ body {
 .MW,
 .AG,
 .JT {
-    border: 1px solid hsl(210, 60%, 98%);
     margin: 1%;
     position: relative;
     border-radius: 10px;
