@@ -32,6 +32,9 @@ body {
     align-items: center;
 
 }
+.reunread .cir{
+    
+}
 
 .MW span {
     font-weight: 700;
@@ -70,7 +73,9 @@ img {
 .KS span {
     font-weight: 700;
 }
+.JT .blue{
 
+}
 .ann {
     border: 1px solid black;
     padding: 22px;
@@ -95,7 +100,6 @@ img {
     width: 90%;
 }
 span.circle{
-    border:1px solid red;
     background-color: red;
     border-radius: 100%;
     width: 2%;
@@ -107,7 +111,6 @@ span.circle{
     height: 10px;
 }
     span.cool{
-    border:1px solid red;
     background-color: red;
     border-radius: 100%;
     left: 75%;
@@ -118,7 +121,6 @@ span.circle{
     height: 10px;
     }
     span.cir{
-    border:1px solid red;
     background-color: red;
     border-radius: 100%;
     left: 45%;
@@ -137,7 +139,9 @@ span.circle{
     width: 100%;
     padding: 15px;
 }
-
+.circle::before{
+    transition: all .5s;
+}
 /* MOBILE */
 @media screen and (max-width:640px) {
     .container {
@@ -146,14 +150,16 @@ span.circle{
     }
 
     img {
-        width: 50px;
+        width: 12%;
+        margin: 2%;
     }
 
     span.circle{
         width: 2%;
-        bottom: 56%;
+        bottom: 44.4%;
         position: absolute;
         display: block;
+        right: 7%;
         width: 10px;
         height: 10px;
     }
@@ -161,8 +167,8 @@ span.circle{
         border:1px solid red;
         background-color: red;
         border-radius: 100%;
-        left: 75%;
-        bottom: 55.5%;
+        left: 60%;
+        bottom: 45%;
         position: absolute;
         display: block;
         width: 10px;
@@ -172,8 +178,8 @@ span.circle{
         border:1px solid red;
         background-color: red;
         border-radius: 100%;
-        left: 45%;
-        bottom: 55.5%;
+        left: 76%;
+        bottom: 55%;
         position: absolute;
         display: block;
         width: 10px;
